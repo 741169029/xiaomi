@@ -1,0 +1,92 @@
+/* 底部内容容器 */
+.bottom{
+    height: 100px;
+    
+}
+/* 服务支持 */
+.bottom-top{
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    border-bottom:1px solid #e0e0e0 ;
+    padding: 27px 0;
+}
+
+.bottom-top a{
+ display: block;
+ line-height: 20px;
+  width: 20%;
+    height: 20px;
+    font-size: 16px;
+    border-right: 1px solid #e0e0e0;
+  color: #616161;
+}
+.bottom-top a:hover{
+    color: #ff6700;
+}
+
+/*服务支持- 图标字体样式 */
+.bottom-top a .iconfont{
+    font-size: 26px;
+    vertical-align: -4px;
+}
+/* 底部联系方式 */
+.bottom-contact{
+    
+    float: left;
+    width: 981px;
+
+}
+/* 通用容器 样式*/
+.footer-links{
+    width: 160px;
+    padding: 40px 0;
+}
+/* 通用H3标题样式 */
+.footer-links h3{
+    font-weight: normal;
+    font-size: 14px;
+    color: #424242;
+    margin-bottom: 17px;
+}
+/* 通用A元素样式 */
+.footer-links a{
+    display: block;
+    font-size: 12px;
+    color: #757575;
+    margin-top: 10px;
+}
+/* 人工服务 */
+.bottom-staff{
+    margin-top: 40px;
+    text-align: center;
+    width: 245px;
+    border-left:1px solid #e0e0e0 ;
+    color: #757575;
+}
+/* 第一个子元素 */
+.bottom-staff p:first-child{
+    
+    font-size: 22px;
+    color: #ff6700;
+}
+/* 第二个子元素 */
+.bottom-staff p:nth-child(2){
+color: #757575;
+}
+/* 第三个子元素 */
+.bottom-staff>a{
+    display: block;
+    width: 118px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    margin: 5px auto;
+}
+ .bottom-staff div .iconfont{
+    font-size: 20px;
+    color:#333;
+ }
+ .bottom-staff div .iconfont:hover{
+    
+    color:#ff6700;
+ }
